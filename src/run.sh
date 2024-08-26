@@ -1,5 +1,11 @@
-source scene_graph/venv/bin/activate
-python scene_graph/script.py
-cp scene_graph/ouput.json rendering/input.json
-source rendering/venv/bin/activate
-python rendering/script.py
+#!/bin/bash
+cd scene_graph
+python -m venv venv
+source venv/bin/activate
+python script.py
+cd ..
+cp -f scene_graph/output.json rendering/input.json
+cd rendering
+python -m venv venv
+source venv/bin/activate
+python script1.py
