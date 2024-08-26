@@ -1,0 +1,5 @@
+{
+ "description": ["there is a sofa", "There are two bookcases ", "there is a table under the TV", "There are three closets with clothes"],
+ "no_of_objects": [7],
+ "room_razmery": [3.0, 5.0, 2.5]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "model": "gpt-4",
+        "api_key": "AISD:Alexander_Bykov:c3650c33470c473bbb4eff2d28edd8ce",
+        "base_url":"http://193.187.173.33:8002/api/providers/openai/v1"
+    },
+    {
+        "model": "gpt-4-1106-preview",
+        "api_key": "AISD:Alexander_Bykov:c3650c33470c473bbb4eff2d28edd8ce",
+        "base_url":"http://193.187.173.33:8002/api/providers/openai/v1"
+    },
+    {
+        "model": "gpt-3.5-turbo-1106",
+        "api_key": "AISD:Alexander_Bykov:c3650c33470c473bbb4eff2d28edd8ce",
+        "api_version": "2023-03-01-preview",
+        "base_url":"http://193.187.173.33:8002/api/providers/openai/v1"
+    }
+]

@@ -1,0 +1,5 @@
+{
+ "description": ["This is livingroom in romane style there is a computer desk in the far left corner", "there is a computer chair in front of the desk", "there is a bookcase opposite the computer desk", "there is a large wardrobe with clothes in the left corner, next to the near wall", "there is a double bed between a wardrobe with clothes and a computer table"],
+ "no_of_objects": [5],
+ "room_razmery": [2.5, 4.0, 2.5]
+}

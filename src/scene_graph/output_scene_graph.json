@@ -1,0 +1,250 @@
+[
+    {
+        "new_object_id": "sofa_1",
+        "style": "Romanesque",
+        "material": "Wood and Fabric",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.8,
+            "height": 0.75
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.3,
+                "y_neg": 0.0,
+                "y_pos": 1.2
+            }
+        },
+        "position": {
+            "x": 1.0559005979350826,
+            "y": 1.015095185231758,
+            "z": 0.375
+        }
+    },
+    {
+        "new_object_id": "coffee_table_1",
+        "style": "Romanesque",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 1.2,
+            "width": 0.6,
+            "height": 0.45
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 1.3366707885172149,
+            "y": 1.715095185231758,
+            "z": 0.225
+        }
+    },
+    {
+        "new_object_id": "area_rug_1",
+        "style": "Contemporary",
+        "material": "Fabric",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 1.4,
+            "height": 0.01
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                },
+                {
+                    "object_id": "coffee_table_1",
+                    "preposition": "under",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        }
+    },
+    {
+        "new_object_id": "standing_lamp_1",
+        "style": "Romanesque",
+        "material": "Metal",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 1.7
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "sofa_1",
+                    "preposition": "right of",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 1.25,
+            "y": 0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 2.5,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 1.25,
+            "y": 4.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 2.5,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.5,
+            "y": 2.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 4.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 2.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 4.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 1.25,
+            "y": 2.0,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 2.5,
+            "width": 4.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 1.25,
+            "y": 2.0,
+            "z": 2.5
+        },
+        "size_in_meters": {
+            "length": 2.5,
+            "width": 4.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]
