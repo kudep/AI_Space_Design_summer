@@ -102,7 +102,15 @@ def get_rotation(obj_A, scene_graph):
         else: 
             parents = []
             for x in obj_A["placement"]["objects_in_room"]:
-                p = [element for element in scene_graph if element.get("new_object_id") == x["object_id"]][0]
+                try:
+                    p = [element for element in scene_graph if element.get("new_object_id") == x["object_id"]][0]
+                except Exception as e: 
+                    if input("Sorry, this message contains a cursed info. Try to reexplain. If you wanna rerun program print [y]. If you wanna to continue print [n].") == "y":
+                        sys.exit(0)
+                    else:
+                       continue
+                    
+                
                 parents.append(p)
             if len(parents) > 0:
                 parent = parents[0]
@@ -187,9 +195,14 @@ def find_room_layout_conflicts(G, scene_graph):
             else:
                 if len(parents_room_layout) == 0:
                     print(node)
-
-                node_layout[node] = parents_room_layout[0]
-
+                try:
+                    node_layout[node] = parents_room_layout[0]
+                except Exception as e:
+                    node_layout[node] = node
+                    if input("Sorry, this message contains a cursed info. Try to reexplain. If you wanna rerun program print [y]. If you wanna to continue print [n].") == "y":
+                        sys.exit(0)
+                    else:
+                       continue
         if node in ROOM_LAYOUT_ELEMENTS:
             node_layout[node] = node
     return conflicts
@@ -1044,9 +1057,8 @@ def place_object(obj, scene_graph, room_dimensions, errors={}, verbose=True):
         if counter > 50:
             with open("scene_graph.json", "w") as file:
                 json.dump(scene_graph, file, indent=4)
-            src_file = "scene_graph.json"
-            dst_dir = "data"
-            output_scene_graph(src_file, dst_dir)
+            
+            output_scene_graph(os.getenv(src_file), os.getenv(dst_dir))
             
             get_visualization(scene_graph, room_dimensions)
             if verbose:
@@ -1114,8 +1126,6 @@ def place_object(obj, scene_graph, room_dimensions, errors={}, verbose=True):
             print("Object placed: ", obj["new_object_id"])
         errors = {}
         break
-    src_file = "scene_graph.json"
-    dst_dir = "data"
     with open("scene_graph.json", "w") as file:
             json.dump(scene_graph, file, indent=4)
  
