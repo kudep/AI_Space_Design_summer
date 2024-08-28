@@ -1,0 +1,16 @@
+README.md
+setup.py
+openshape/__init__.py
+openshape/pointnet_util.py
+openshape/ppat_rgb.py
+openshape.egg-info/PKG-INFO
+openshape.egg-info/SOURCES.txt
+openshape.egg-info/dependency_links.txt
+openshape.egg-info/top_level.txt
+openshape/demo/__init__.py
+openshape/demo/caption.py
+openshape/demo/classification.py
+openshape/demo/lvis.py
+openshape/demo/misc_utils.py
+openshape/demo/retrieval.py
+openshape/demo/sd_pc2img.py
