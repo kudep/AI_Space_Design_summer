@@ -1,0 +1,54 @@
+{
+    "room" : {
+        "scale" : {
+            "width" : 8,
+            "depth" : 8,
+            "height" : 2.5
+        }
+    },
+    "cameras" : [
+            {
+                "rotation" : {
+                    "x": 90,
+                    "y": 0,
+                    "z":315
+                },
+                "wall": "x+",
+                "focal_length": 20,
+                "samples": 256
+            },
+            {
+                "rotation" : {
+                    "x":90,
+                    "y":0,
+                    "z":135
+                },
+                "wall": "y+",
+                "focal_length": 20,
+                "samples": 256
+            }
+        ],
+        "lamps" : [
+            {
+                "location" : {
+                    "x" : 3,
+                    "y" : 4,
+                    "z" : 2.45
+                },
+                "number" : 1,
+                "radius" : 1,
+                "color" : "D8C594",
+                "power" : 15
+            },
+            {
+                "location" : {
+                    "x" : 6,
+                    "y" : 4,
+                    "z" : 2.45
+                },
+                "number" : 2,
+                "radius" : 1,
+                "color" : "D8C594",
+                "power" : 15
+            }
+        ]}
