@@ -117,7 +117,7 @@ def hex_to_rgb(value):
 
 
 objects_in_room = {}
-file_path = "/home/mnim/IDesign-main/scene_graph.json"
+file_path = "/home/user/scene_graph.json" #here you can specify your path
 with open(file_path, 'r') as file:
     data = json.load(file)
     for item in data:
@@ -176,7 +176,7 @@ for OBJS in MSH_OBJS:
 bpy.ops.object.select_all(action='DESELECT')
 delete_empty_objects()
 
-room = "/home/mnim/IDesign-main/room.json"
+room = "/home/user/room.json"#here you can specify your path
 with open(room, 'r') as j:
     config = json.load(j)
     wid = config["room"]["scale"]["width"]
