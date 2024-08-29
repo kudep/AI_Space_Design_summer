@@ -1,0 +1,36 @@
+{
+    "objects_in_room": [
+        {
+            "new_object_id": "kitchen_island_table_1",
+            "style": "modern",
+            "material": "wood with a marble top",
+            "size_in_meters": {
+                "length": 1.2,
+                "width": 0.8,
+                "height": 0.9
+            },
+            "is_on_the_floor": true,
+            "facing": "north_wall",
+            "placement": {
+                "room_layout_elements": [
+                    {
+                        "layout_element_id": "middle of the room",
+                        "preposition": "on"
+                    }
+                ],
+                "objects_in_room": []
+            },
+            "rotation": {
+                "z_angle": 0.0
+            },
+            "cluster": {
+                "constraint_area": {
+                    "x_neg": 0.5,
+                    "x_pos": 0.5,
+                    "y_neg": 0.5,
+                    "y_pos": 0.5
+                }
+            }
+        }
+    ]
+}

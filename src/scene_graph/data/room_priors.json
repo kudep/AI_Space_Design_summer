@@ -1,0 +1,104 @@
+[
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 1.0,
+            "y": 0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 1.0,
+            "y": 2.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 2.0,
+            "y": 1.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 1.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 2.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 2.5
+        },
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 2.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]
