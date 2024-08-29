@@ -5,7 +5,7 @@ The program receives an input request to create a design in the form of an objec
 of interior items in the room, the size of the room, and directly a description of the room from the user. Further, this information is transmitted using fr
 amework autogen through a pipeline from LLM (model data comes from the json file OAI_CONFIG_LIST), between which the transfer is carried out in json format, for this
 purpose there is a json schema in the file for each LLM schemas.py rendering and creation of the interior in 3D format is carried out using the bpy module, therefore
-LLM does not have access to any database of 3D models, but creates them itself using the bpy module.
+LLM does not have access to any database of 3D models, but creates them itself using the bpy module .
 
 ## Requirements
 Install the requirements
