@@ -13,12 +13,12 @@ import shutil
 from openai import OpenAI
 
 ROOM_LAYOUT_ELEMENTS = ["south_wall", "north_wall", "west_wall", "east_wall", "ceiling", "middle of the room"]
-fig, ax = plt.subplots()
-#plt.xlim(-1000, 3000)
-#plt.ylim(-1000, 3000)
-ax.set_xlim(-1000, 3000)  # adjust the x-axis limits as needed
-ax.set_ylim(-1000, 3000)  # adjust the y-axis limits as needed
-ax.set_aspect('equal')  # ensure aspect ratio is equal
+# fig, ax = plt.subplots()
+# #plt.xlim(-1000, 3000)
+# #plt.ylim(-1000, 3000)
+# ax.set_xlim(-1000, 3000)  # adjust the x-axis limits as needed
+# ax.set_ylim(-1000, 3000)  # adjust the y-axis limits as needed
+# ax.set_aspect('equal')  # ensure aspect ratio is equal
 
 
 
@@ -708,12 +708,12 @@ def clean_and_extract_edges(relationships, parent_id, verbose):
         cycles = list(nx.simple_cycles(dag))
         dag.remove_edge(cycles[0][-1], cycles[0][0])
 
-    if verbose:
-        plt.subplot(121)
-        pos_original = nx.spring_layout(dag)
-        nx.draw(dag, pos_original, with_labels=True, font_weight='bold', node_size=700, arrowsize=20)
-        plt.title("Original Graph")
-        plt.show()
+    # if verbose:
+    #     plt.subplot(121)
+    #     pos_original = nx.spring_layout(dag)
+    #     nx.draw(dag, pos_original, with_labels=True, font_weight='bold', node_size=700, arrowsize=20)
+    #     plt.title("Original Graph")
+    #     plt.show()
 
     dag = remove_edges_with_connectivity(dag, verbose)
     
@@ -725,15 +725,15 @@ def clean_and_extract_edges(relationships, parent_id, verbose):
         pos_original = nx.spring_layout(dag)
         pos_binary_tree = nx.spring_layout(binary_tree)
 
-        plt.subplot(121)
-        nx.draw(dag, pos_original, with_labels=True, font_weight='bold', node_size=700, arrowsize=20)
-        plt.title("Original Graph")
+        # plt.subplot(121)
+        # nx.draw(dag, pos_original, with_labels=True, font_weight='bold', node_size=700, arrowsize=20)
+        # plt.title("Original Graph")
 
-        plt.subplot(122)
-        nx.draw(binary_tree, pos_binary_tree, with_labels=True, font_weight='bold', node_size=700, arrowsize=20)
-        plt.title("Binary Tree")
+        # plt.subplot(122)
+        # nx.draw(binary_tree, pos_binary_tree, with_labels=True, font_weight='bold', node_size=700, arrowsize=20)
+        # plt.title("Binary Tree")
 
-        plt.show()
+        # plt.show()
 
     return binary_tree.edges(), flipped_edges
 
@@ -746,23 +746,23 @@ def create_empty_image_with_boxes(image_size, boxes):
         if np.isclose(r, 90.0) or np.isclose(r, 270.0):
             x, y = int(x - h/2), int(y - w/2)
             rectangle = patches.Rectangle((x, y), x+h, y+w, linewidth=2, edgecolor='g', facecolor='none')
-            ax.add_patch(rectangle)
+            # ax.add_patch(rectangle)
             #cv2.rectangle(img, (x, y), (x + h, y + w), (0, 255, 0), 2)
         else:
             x, y = int(x - w/2) , int(y - h/2)
            #cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
             rectangle = patches.Rectangle((x, y), x+h, y+w, linewidth=2, edgecolor='g', facecolor='none')
-            ax.add_patch(rectangle)
+            # ax.add_patch(rectangle)
         #cv2.putText(img, label, (x, y - 10), cv2.FONT_ITALIC , 0.5, (255, 255, 255), 1)
     
  
     #res_img = cv2.resize(img, (800, 800), interpolation = cv2.INTER_CUBIC)
     #cv2.imshow("image", res_img) 
-    key = cv2.waitKey(0)
-    plt.ion()
-    plt.show()
-    plt.pause(2)
-    plt.clf()
+    # key = cv2.waitKey(0)
+    # plt.ion()
+    # plt.show()
+    # plt.pause(2)
+    # plt.clf()
     
 def get_visualization(scene_graph, room_priors):
     visual_scene_graph = [
