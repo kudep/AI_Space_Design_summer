@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from copy import copy, deepcopy
 import random
-import cv2
 from constraint_functions import get_above_constraint, get_behind_constraint, get_in_corner_constraint, get_in_front_constraint, get_left_of_constraint, get_right_of_constraint, get_on_constraint, get_under_contraint
 import json
 import sys

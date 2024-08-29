@@ -1,0 +1,11 @@
+#!/bin/bash
+cd scene_graph
+python -m venv venv
+source venv/bin/activate
+python scr.py
+cd ..
+cat scene_graph/o.txt >rendering/in.txt
+cd rendering
+python -m venv venv
+source venv/bin/activate
+python scr1.py

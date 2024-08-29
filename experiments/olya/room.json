@@ -1,0 +1,170 @@
+{
+    "room1": {
+        "description": [
+            {
+                "text": "there is a bathtub",
+                "level": 0
+            },
+            {
+                "text": "there is a bathtub on the left",
+                "level": 1
+            },
+            {
+                "text": "there is a bathtub on the left",
+                "level": 2
+            },
+            {
+                "text": "there is a sink",
+                "level": 0
+            },
+            {
+                "text": "there is a sink to the right of the bathtub",
+                "level": 1
+            },
+            {
+                "text": "there is a sink to the right of the bathtub with mirror above it",
+                "level": 2
+            }
+            {
+                "text": "there is a washing machine",
+                "level": 0
+            },
+            {
+                "text": "there is a washing machine in the near right corner",
+                "level": 1
+            },
+            {
+                "text": "there is a washing machine in the near right corner, located with a door to the bathtub, and a heated towel rail above it",
+                "level": 2
+            },
+            {
+                "text": "there is a locker",
+                "level": 0
+            },
+            {
+                "text": "there is a locker above the washing machine",
+                "level": 1
+            },
+            {
+                "text": "there is a locker above the washing machine, hanging on the near wall",
+                "level": 2
+            },
+        ]
+    },
+    "room2": {
+        "description": [
+            {
+                "text": "there is a computer desk",
+                "level": 0
+            },
+            {
+                "text": "there is a computer desk in the far left corner",
+                "level": 1
+            },
+            {
+                "text": "there is a computer desk in the far left corner, with a painting hanging above it",
+                "level": 2
+            },
+            {
+                "text": "there is a computer chair",
+                "level": 0
+            },
+            {
+                "text": "there is a computer chair in front of the desk",
+                "level": 1
+            },
+            {
+                "text": "there is a computer chair in front of the desk",
+                "level": 2
+            },
+            {
+                "text": "there is a bookcase",
+                "level": 0
+            },
+            {
+                "text": "there is a bookcase opposite the computer desk",
+                "level": 1
+            },
+            {
+                "text": "there is a bookcase opposite the computer desk, located along the right wall, with a clock hanging next to it",
+                "level": 2
+            },
+            {
+                "text": "there is a wardrobe with clothes",
+                "level": 0
+            },
+            {
+                "text": "there is a large wardrobe with clothes in the left corner, next to the near wall",
+                "level": 1
+            },
+            {
+                "text": "there is a large wardrobe with clothes in the left corner, next to the near wall, located with a door to the computer desk",
+                "level": 2
+            },
+            {
+                "text": "There is a bed",
+                "level": 0
+            },
+            {
+                "text": "there is a double bed between a wardrobe with clothes and a computer table",
+                "level": 1
+            },
+            {
+                "text": "there is a double bed between a wardrobe with clothes and a computer table across the room, in the center of the left wall, opposite it, on the right wall, there is a painting",
+                "level": 2
+            },
+        ]
+    },
+    "room3": {
+        "description": [
+            {
+                "text": "there is a sofa",
+                "level": 0
+            },
+            {
+                "text": "there is a corner sofa in the far right corner",
+                "level": 1
+            },
+            {
+                "text": "there is a corner sofa in the far right corner, facing the left wall, with a painting hanging above it",
+                "level": 2
+            },
+            {
+                "text": "There are two bookcases ",
+                "level": 0
+            },
+            {
+                "text": "there are two bookcases opposite the sofa",
+                "level": 1
+            },
+            {
+                "text": "there are two bookcases opposite the sofa, facing the sofa",
+                "level": 2
+            },
+            {
+                "text": "there is a table under the TV",
+                "level": 0
+            },
+            {
+                "text": "there is a TV table between two bookcases",
+                "level": 1
+            },
+            {
+                "text": "there is a table for a TV between two bookcases, there is a TV on the table, and a clock hangs above the TV",
+                "level": 2
+            },
+            {
+                "text": "There are three closets with clothes",
+                "level": 0
+            },
+            {
+                "text": "there are three large closets with clothes in the near left corner",
+                "level": 1
+            },
+            {
+                "text": "there are three large closets with clothes in the near left corner, with the central closet corner",
+                "level": 2
+            }
+        ]
+    }
+}
