@@ -1,5 +1,0 @@
-{
- "description": ["there is a bathtub on the left", "there is a sink to the right of the bathtub", "there is a washing machine in the near right corner", "there is a locker above the washing machine"],
- "no_of_objects": [4],
- "room_razmery": [2.0, 1.5, 2.5]
-}
