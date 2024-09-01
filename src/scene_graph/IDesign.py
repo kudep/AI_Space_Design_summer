@@ -74,7 +74,7 @@ class IDesign:
 
             manager = GroupChatManager(groupchat=chat_with_engineer, 
                                        llm_config=gpt4_config, 
-                                       human_input_mode="NEVER", 
+                                       human_input_mode="ALWAYS", 
                                        is_termination_msg=is_termination_msg)
             user_proxy.initiate_chat(
                 manager,

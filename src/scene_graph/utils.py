@@ -39,14 +39,14 @@ def count_interior_items(file_path):
 def get_room_dimensions(file_path):
     with open(file_path, 'r') as f:
         data = json.load(f)
-        room_dimensions = data['room_razmery']
+        room_dimensions = data['room_dimensions']
     return room_dimensions
 
 
 def output_scene_graph(src_file, dst_dir):
-    dst_file = os.path.join(dst_dir, "output_scene_graph.json")
-    os.rename(src_file,"output_scene_graph.json" )
-    shutil.move("output_scene_graph.json", dst_dir)
+    dst_file = os.path.join(dst_dir, "output.json")
+    os.rename(src_file,"output.json" )
+    shutil.move("output.json", dst_dir)
 
 def get_room_priors(room_dimensions):
     x_mid = room_dimensions[0] / 2

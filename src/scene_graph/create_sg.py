@@ -1,16 +1,16 @@
 from IDesign import IDesign
 from utils import get_text_description,count_interior_items,get_room_dimensions ,output_scene_graph
 import os
-FILE_PATH = input("Enter the file path: ")
-output_scenegraph_path = os.path.join("data", "output_scene_graph.json")
+FILE_PATH = 'input.json'
+output_scenegraph_path = os.path.join("data", "output.json")
 
 number_of_objects = count_interior_items(FILE_PATH)
 room_dimensions = get_room_dimensions(FILE_PATH)
-
+text_description = get_text_description(FILE_PATH)
 
 #number_of_objects = 10
 i_design = IDesign(no_of_objects = number_of_objects, 
-                  user_input = get_text_description(FILE_PATH), 
+                  user_input = text_description, 
                   room_dimensions = room_dimensions,)
     #TODO : Adjust visualization window size according to the room size
 # Interior Designer, Interior Architect and Engineer 
