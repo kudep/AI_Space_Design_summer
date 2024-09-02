@@ -1,0 +1,1 @@
+blender -P place_in_blender.py
