@@ -6,6 +6,7 @@ import os
 object_name = 'Cube'
 object_to_delete = bpy.data.objects.get(object_name)
 
+
 # Check if the object exists before trying to delete it
 if object_to_delete is not None:
     bpy.data.objects.remove(object_to_delete, do_unlink=True)
@@ -117,7 +118,7 @@ def hex_to_rgb(value):
 
 
 objects_in_room = {}
-file_path = "/home/user/scene_graph.json" #here you can specify your path
+file_path = "/home/mnim/AI_Space_Design_summer/src/rendering/input.json" #here you can specify your path
 with open(file_path, 'r') as file:
     data = json.load(file)
     for item in data:
@@ -176,7 +177,7 @@ for OBJS in MSH_OBJS:
 bpy.ops.object.select_all(action='DESELECT')
 delete_empty_objects()
 
-room = "/home/user/room.json"#here you can specify your path
+room = "/home/mnim/AI_Space_Design_summer/src/rendering/room.json"#here you can specify your path
 with open(room, 'r') as j:
     config = json.load(j)
     wid = config["room"]["scale"]["width"]

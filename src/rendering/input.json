@@ -1,0 +1,687 @@
+[
+    {
+        "new_object_id": "dining_table_1",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 1.0,
+            "height": 0.75
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "middle of the room",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.5,
+                "x_pos": 0.5,
+                "y_neg": 0.5,
+                "y_pos": 0.5
+            }
+        },
+        "position": {
+            "x": 5.081539542748007,
+            "y": 6.91334322568237,
+            "z": 0.375
+        }
+    },
+    {
+        "new_object_id": "dining_chair_1",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 1.0
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 3.831539542748007,
+            "y": 6.735389916433296,
+            "z": 0.5
+        }
+    },
+    {
+        "new_object_id": "dining_chair_2",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 1.0
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 6.331539542748007,
+            "y": 7.046643959529945,
+            "z": 0.5
+        }
+    },
+    {
+        "new_object_id": "dining_chair_3",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 1.0
+        },
+        "is_on_the_floor": true,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "in front",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 4.885425760992765,
+            "y": 7.66334322568237,
+            "z": 0.5
+        }
+    },
+    {
+        "new_object_id": "dining_chair_4",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 0.5,
+            "width": 0.5,
+            "height": 1.0
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "behind",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 5.00207430365759,
+            "y": 6.16334322568237,
+            "z": 0.5
+        }
+    },
+    {
+        "new_object_id": "dishwasher_1",
+        "style": "Modern",
+        "material": "Metal",
+        "size_in_meters": {
+            "length": 0.6,
+            "width": 0.6,
+            "height": 0.85
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "cabinet_set_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 3.883745048017973,
+            "y": 0.3,
+            "z": 0.425
+        }
+    },
+    {
+        "new_object_id": "kitchen_island_1",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 2.0,
+            "width": 1.0,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "cabinet_set_1",
+                    "preposition": "in front",
+                    "is_adjacent": false
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.4,
+                "x_pos": 0.4,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 2.486224933357562,
+            "y": 5.862261617114205,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "pendant_lights_1",
+        "style": "Romantic",
+        "material": "Glass",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.3
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "dining_table_1",
+                    "preposition": "above",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 5.835954748793381,
+            "y": 7.227585567675344,
+            "z": 2.35
+        }
+    },
+    {
+        "new_object_id": "pendant_lights_2",
+        "style": "Romantic",
+        "material": "Glass",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.3
+        },
+        "is_on_the_floor": false,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "kitchen_island_1",
+                    "preposition": "above",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 1.6452685774977176,
+            "y": 5.555316675425669,
+            "z": 2.35
+        }
+    },
+    {
+        "new_object_id": "pendant_lights_3",
+        "style": "Romantic",
+        "material": "Glass",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.3
+        },
+        "is_on_the_floor": false,
+        "facing": "south_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "ceiling",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": [
+                {
+                    "object_id": "middle of the room",
+                    "preposition": "above",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 180.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 2.713251984707728,
+            "y": 7.2457527618675615,
+            "z": 2.35
+        }
+    },
+    {
+        "new_object_id": "cabinet_set_1",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 3.0,
+            "width": 0.6,
+            "height": 2.2
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [
+                {
+                    "layout_element_id": "south_wall",
+                    "preposition": "on"
+                }
+            ],
+            "objects_in_room": []
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.6,
+                "y_neg": 0.0,
+                "y_pos": 2.8
+            }
+        },
+        "position": {
+            "x": 2.083745048017973,
+            "y": 0.3,
+            "z": 1.1
+        }
+    },
+    {
+        "new_object_id": "range_cooker_1",
+        "style": "Modern",
+        "material": "Metal",
+        "size_in_meters": {
+            "length": 1.0,
+            "width": 0.6,
+            "height": 0.9
+        },
+        "is_on_the_floor": true,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "cabinet_set_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 1.152491096048371,
+            "y": 0.3,
+            "z": 0.45
+        }
+    },
+    {
+        "new_object_id": "bar_stool_1",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.4,
+            "height": 0.8
+        },
+        "is_on_the_floor": true,
+        "facing": "west_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "kitchen_island_1",
+                    "preposition": "left of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 270.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 1.286224933357562,
+            "y": 5.643186023781175,
+            "z": 0.4
+        }
+    },
+    {
+        "new_object_id": "bar_stool_2",
+        "style": "Romantic",
+        "material": "Wood",
+        "size_in_meters": {
+            "length": 0.4,
+            "width": 0.4,
+            "height": 0.8
+        },
+        "is_on_the_floor": true,
+        "facing": "east_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "kitchen_island_1",
+                    "preposition": "right of",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 90.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 3.686224933357562,
+            "y": 5.766057058820434,
+            "z": 0.4
+        }
+    },
+    {
+        "new_object_id": "decorative_vase_1",
+        "style": "Romantic",
+        "material": "Ceramic",
+        "size_in_meters": {
+            "length": 0.3,
+            "width": 0.3,
+            "height": 0.5
+        },
+        "is_on_the_floor": false,
+        "facing": "north_wall",
+        "placement": {
+            "room_layout_elements": [],
+            "objects_in_room": [
+                {
+                    "object_id": "kitchen_island_1",
+                    "preposition": "on",
+                    "is_adjacent": true
+                }
+            ]
+        },
+        "rotation": {
+            "z_angle": 0.0
+        },
+        "cluster": {
+            "constraint_area": {
+                "x_neg": 0.0,
+                "x_pos": 0.0,
+                "y_neg": 0.0,
+                "y_pos": 0.0
+            }
+        },
+        "position": {
+            "x": 2.9824574529621843,
+            "y": 5.7793762753939575,
+            "z": 1.15
+        }
+    },
+    {
+        "new_object_id": "south_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 4.0,
+            "y": 0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 8.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "north_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 4.0,
+            "y": 8.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 8.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 180.0
+        }
+    },
+    {
+        "new_object_id": "east_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 8.0,
+            "y": 4.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 8.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 270.0
+        }
+    },
+    {
+        "new_object_id": "west_wall",
+        "itemType": "wall",
+        "position": {
+            "x": 0,
+            "y": 4.0,
+            "z": 1.25
+        },
+        "size_in_meters": {
+            "length": 8.0,
+            "width": 0.0,
+            "height": 2.5
+        },
+        "rotation": {
+            "z_angle": 90.0
+        }
+    },
+    {
+        "new_object_id": "middle of the room",
+        "itemType": "floor",
+        "position": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 0
+        },
+        "size_in_meters": {
+            "length": 8.0,
+            "width": 8.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    },
+    {
+        "new_object_id": "ceiling",
+        "itemType": "ceiling",
+        "position": {
+            "x": 4.0,
+            "y": 4.0,
+            "z": 2.5
+        },
+        "size_in_meters": {
+            "length": 8.0,
+            "width": 8.0,
+            "height": 0.0
+        },
+        "rotation": {
+            "z_angle": 0.0
+        }
+    }
+]

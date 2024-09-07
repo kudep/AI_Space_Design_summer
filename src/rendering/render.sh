@@ -1,1 +1,1 @@
-blender -P place_in_blender.py
+blender -b -P place_in_blender.py -o output/frame_##### -f 1
